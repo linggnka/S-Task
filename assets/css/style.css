@@ -1,0 +1,130 @@
+body {
+    background-image: url('../img/Background.png');
+    background-repeat: no-repeat;
+
+}
+
+h1 h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#judul {
+    font-size: 40px;
+}
+
+@media (min-width: 576px) {
+    #judul {
+        font-size: 50px;
+    }
+
+}
+
+.angka {
+    font-size: 40px;
+    font-weight: bold;
+    color: #457B9D;
+}
+
+.form-login {
+    border: none;
+    outline: none;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #ced4da;
+    padding: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-loginlabel {
+    margin-top: 0.25rem;
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.lupa-pass {
+    font-size: 0.75rem;
+}
+
+.lupa-pass2 {
+    font-size: 1rem;
+}
+
+
+.montserrat {
+font-family: 'Montserrat', sans-serif;
+}
+
+.bt-submit {
+    color: #fff;
+    background-color: #457B9D;
+    border-color: #457B9D;
+}
+
+.bt-reset {
+    border-color: #355070;
+}
+
+.bt-reset:hover {
+    color: #fff;
+    background-color: #355070;
+}
+
+.login-content {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 3rem);
+    padding-left: var(--bs-gutter-x, 3rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+    .icon-dash {
+    width: 15px;
+    height: 15px;
+    }
+}
+
+.map {
+    height: 100px;
+}
+
+.abk {
+    color: #6c757d !important;
+    font-size: 10px !important;
+    margin-left: 0.25rem;
+}
+
+.label-mine {
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #457B9D;
+    margin-left: 0.25rem;
+}
+
+.label-lainnya {
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #bcc1c5;
+    margin-left: 0.25rem;
+}
+
+@media (min-width: 992px) {
+    .profil-kapal-lg {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .profil-kapal-xl {
+        font-size: 2.5rem;
+    }
+}
+
+.menu-active {
+    color: #457B9D;
+    background-color: #fff;
+}
